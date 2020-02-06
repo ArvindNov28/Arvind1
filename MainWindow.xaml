@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <TextBox Text="KRIVAM" Name="txtName" HorizontalAlignment="Center" BorderThickness="0" Grid.Row="0"/>
+            <Image Name="ikri" Source="/Resource/IMG_20151228_220226.jpg" Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Image>
+        </Grid>
+       
+    </Grid>
+</Window>
